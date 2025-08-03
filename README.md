@@ -36,10 +36,16 @@ You can modify the following parameters in the video_inference.py script:
 
 ## Output
 
-The script will create `output_detection.mp4` with:
+The training.ipynb will download the public dataset and perform munipilation to prepare the dataset so the pretrained yolo5 can accept it. 
+
+I trained only using 1 epoh for demonstration on already seen improving results: 
+
+<img width="1814" height="142" alt="image" src="https://github.com/user-attachments/assets/edefd50b-3659-40d6-a58b-a21a85908be3" />
+
+the model.pt is saved in the training retults for reference.
+
+
+Tht script video_inference.py will create `output_detection.mp4` on a video of chooosing with:
 - Bounding boxes around detected objects
 - Class labels with confidence scores
 - Color-coded boxes for different object classes 
-
-
-
