@@ -32,7 +32,6 @@ You can modify the following parameters in the video_inference.py script:
 - `model_path`: Path to your trained model
 - `input_video`: Path to your input video
 - `output_video`: Path for the output video
-- Confidence threshold (currently set to 0.3)
 
 ## Output
 
